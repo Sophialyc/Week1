@@ -20,3 +20,7 @@ print(prediction.pass, probs=c(0.025, 0.5, 0.975))
 theta.pass_draws <- extract(prediction.pass, 'theta')[1]
 
 hist(theta.pass_draws, xlim = c(0, 0.8))
+
+git remote add origin https://github.com/Sophialyc/advanted-topic.git
+
+use_github()
